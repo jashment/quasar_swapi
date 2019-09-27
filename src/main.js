@@ -2,6 +2,7 @@ import Vue from 'vue'
 import './plugins/vuetify'
 import App from './App.vue'
 import axios from 'axios'
+import './quasar'
 
 axios.defaults.baseURL = "https://swapi.co/api"
 
